@@ -1,1 +1,2 @@
 "Initial Bar Commit"
+New Verson 1.0 Released 
