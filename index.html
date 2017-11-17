@@ -1,4 +1,3 @@
-A
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,9 +15,9 @@ A
         <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
         
-
-    </head>
-       <style>
+        <style>
+           
+          
 #myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -105,35 +104,42 @@ A
     }
 }
 </style>
-    <body>
+        
+    </head>
+       
 
+    <body style="background-color:#006666"> 
+       
         <!-- Wrap all page content here -->
-<div id="wrap" >
+<div id="wrap">
+    
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     
   <!-- Fixed navbar -->
-  <div id="nav-placeholder">
-
-</div>
+  <div id="nav-placeholder"></div>
 
 <script>
 $(function(){
   $("#nav-placeholder").load("nav.html");
+  $("#foot-placeholder").load("foot.html");
 });
 </script>
 
 
 
  <!-- Begin page content -->
-  <div class="container">
+
+  <div class="container" style="float:center; background-color:white">
+     
+      
     <div class="page-header" id="test">
-      <h1 style="text-align:center">The page of Daryl Robbin</h1>
+      <h1 style="text-align:center">Projects</h1>
     </div>
-    <p class="lead"> Welcome to the webpage of Daryl Robbin </p>
+         
     <div class="floating-box">
     <div class="container">
 
-        <h2> Tyranny of the Lord </h2>
+        <h2 id='test'> Tyranny of the Lord </h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:350px">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -188,12 +194,12 @@ $(function(){
     </div> 
     <!-- End of first box-->
     
-    <div class="floating-box">
-    <div class="container">
+    <div class="floating-box" style='padding-left:30px'>
+    
 
-        <h2>Giants and Halfling</h2>
+        <h2 id='test'>Giants and Halflings</h2>
 
-<img id="myImg" src="image/GAH" alt="Java Code example" width="400" height="365">
+<img id="myImg" src="image/GAH.png" alt="GAH Code example" width="400" height="365">
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -206,11 +212,55 @@ $(function(){
     <p> <a target="_blank" href='https://github.com/dmrobbin/GAH'>View on Github </a></p>
 
 
-    </div>
+   
     
   </div>
-</div>
+    <div class="floating-box" style='padding-left:30px'>
+    
 
+        <h2 id='test'>Empty Box</h2>
+
+<img id="myImg" src="http://libertyshoewarehouse.com/mt-content/uploads/2016/12/comingsoon.png" alt="coming soon" width="400" height="365">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<p style='padding-top:20px '>Coming Soon</p> 
+    <p> <a target="_blank" href='index.html'>Blank link </a></p>
+
+
+   
+    
+  </div>
+    
+    <div class="floating-box" style='padding-left:30px'>
+    
+
+        <h2 id='test'>Empty Box</h2>
+
+<img id="myImg" src="http://libertyshoewarehouse.com/mt-content/uploads/2016/12/comingsoon.png" width="400" height="365">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<p style='padding-top:20px '>Coming Soon</p> 
+    <p> <a target="_blank" href='index.html'>Blank link </a></p>
+
+
+   
+    
+  </div>
+    
+</div>
+ 
+    </div>
+        
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -244,6 +294,6 @@ span.onclick = function() {
 <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script>
 
 
-        
-    </body>
+        <div id="foot-placeholder"> </div>
+    </body>   
 </html>
