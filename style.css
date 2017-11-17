@@ -1,8 +1,12 @@
-body {
+body {  
   height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
+ 
+  /*The html and body elements cannot have any padding or margin. */
 }
 
+.content {
+    position:relative; margin:0 auto 0 auto; width:400px; background-color:#ffffff;
+}
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
@@ -17,7 +21,8 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: #006666;
+  text-align: center;
 }
 
 #margin{
@@ -28,12 +33,13 @@ body {
 }
 
 #test{
-    color:red;
+    color:#006666;
     font-size:xx-large;
 }
 
 #wrap > .container {
   padding: 60px 15px 0;
+  background-color:#ffffff;
 }
 .container .credit {
   margin: 20px 0;
@@ -52,9 +58,9 @@ code {
     border-radius: 25px;
     float: left;
     width:450px;
-    height: 600px;
-    margin: 500px;
-    padding: 500px;
+    height: 620px;
+    margin: 50px;
+    padding: 30px;
     border: 3px solid #006666;  
 }
 
